@@ -1,0 +1,51 @@
+:root {
+--background: #343F56;
+--font: rgb(255, 255, 255);
+--card: #E9896A;
+--card-font: rgb(255, 255, 255);
+/*
+--background: #3A3535;
+--font: rgb(255, 255, 255);
+--card: #FF7315;
+--card-font: rgb(255, 255, 255);
+*/
+
+/*
+--card-font: #F6E5E9;
+--background: #022E57;
+--card-font: rgb(255, 255, 255);
+/* --background: #343F56;
+--font: #F7F3E9;
+--card: #E9896A;
+--card-font: #F7F3E9; */
+
+
+}
+.base-font {
+color: var(--font)
+}
+.big-p {
+font-size: 20px;
+}
+
+.center-aligned-div {
+margin: auto;
+width: 60%;
+}
+.vertical-spacing {
+margin-top: 7.5%;
+}
+.vertical-spacing-small {
+margin-top: 2.5%;
+}
+.colored-card {
+background-color: var(--card);
+padding: 1%;
+}
+.card-font {
+color: var(--card-font);
+}
+body {
+background-color: var(--background);
+text-align: center;
+}
